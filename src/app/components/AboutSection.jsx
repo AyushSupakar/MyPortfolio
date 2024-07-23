@@ -56,8 +56,8 @@ function AboutSection() {
   }
 
   return (
-    <section className='white'>
-        <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:py-16">
+    <section className='white py-8 sm:py-16 xl:py-16' id="about">
+        <div className="md:grid md:grid-cols-2 gap-8 items-center  px-4 xl:gap-16 ">
             <Image className=' md:w-[300]'
             src="/images/PC.jpg"
             width={350}

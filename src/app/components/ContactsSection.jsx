@@ -3,8 +3,8 @@ import React from 'react'
 
 function ContactsSection() {
   return (
-    <div className='h-100'>
-        <div className="flex py-8 justify-center items-center">
+    <section className='py-8' id="contacts" >
+        <div className="flex  justify-center items-center">
             <h1 className="font-semibold text-3xl">Contact Me</h1>
         </div>
 
@@ -50,7 +50,7 @@ function ContactsSection() {
 
         
       
-    </div>
+    </section>
   )
 }
 

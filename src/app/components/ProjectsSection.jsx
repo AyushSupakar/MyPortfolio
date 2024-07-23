@@ -105,7 +105,7 @@ function ProjectsSection() {
 ]
 const filteredProjects = projectsData.filter((project)=>project.tag.includes(tag))
   return (
-    <>
+    <section className='mt-4 py-4' id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">My Projects</h2>
 
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
@@ -121,7 +121,7 @@ const filteredProjects = projectsData.filter((project)=>project.tag.includes(tag
       <div className="mx-4 grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project)=><ProjectCard key={project.id} title={project.title} description={project.description} imgUrl={project.image} gitUrl={project.gitUrl} webUrl={project.webUrl}/>)}
       </div>
-    </>
+    </section>
   )
 }
 
