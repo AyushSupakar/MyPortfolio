@@ -91,6 +91,16 @@ function ProjectsSection() {
     gitUrl:"https://github.com/AyushSupakar/3D-Modelling",
     webUrl:"https://www.artstation.com/artwork/49wm1Y",
 
+},
+{
+  id:9,
+  title:"Portfolio",
+  description:"My Portfolio website.",
+  image:"/images/projects/Portfolio.png",
+  tag:["All","Web"],
+  gitUrl:"https://github.com/AyushSupakar/MyPortfolio",
+  webUrl:"https://my-portfolio-seven-steel-44.vercel.app/",
+
 }
 ]
 const filteredProjects = projectsData.filter((project)=>project.tag.includes(tag))
