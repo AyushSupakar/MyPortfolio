@@ -37,7 +37,7 @@ function HeroSection() {
       repeat={Infinity}
     /></h1>
 
-        <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl mr-4 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam aspernatur quidem ducimus! Illo quasi, nesciunt provident neque corrupti ea eligendi magnam expedita impedit molestias modi, fugit exercitationem tenetur officiis libero.</p>
+        <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl mr-4 ">A Website to Build or a Bug to Fix, a Game to Make or a 3D item to Bake, I got you covered.</p>
 
         
         <div className="">
