@@ -2,6 +2,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation';
+import Link from 'next/link';
 
 
 
@@ -42,10 +43,10 @@ function HeroSection() {
         
         <div className="">
 
-            <button className=" w-full px-6 py-3 sm:w-fit  rounded-full mr-4 bg-gradient-to-br from-blue-400 via-purple-500 to-pink-400 hover:bg-slate-200 text-white ">Hire Me</button>
+            <Link href="https://www.linkedin.com/in/ayush-anshuman-supakar-4b71681b8/"  className=" w-full px-6 py-3 sm:w-fit  rounded-full mr-4 bg-gradient-to-br from-blue-400 via-purple-500 to-pink-400 hover:bg-slate-200 text-white ">Hire Me</Link>
             
-            <button className="w-full sm:w-fit px-1 py-1 rounded-full mr-4 bg-gradient-to-br from-blue-400 via-purple-500 to-pink-400  hover:bg-slate-800 text-white mt-3">
-                <span className="block bg-[#121212] hover:bg-white hover:text-black hover:font-bold rounded-full px-5 py-2">Resume</span>
+            <button  className="w-full sm:w-fit px-1 py-1 rounded-full mr-4 bg-gradient-to-br from-blue-400 via-purple-500 to-pink-400  hover:bg-slate-800 text-white mt-3" download>
+                <span className="block bg-[#121212] hover:bg-white hover:text-black hover:font-bold rounded-full px-5 py-2"><a href="/resume/CV.pdf" download>Resume</a></span>
             </button>
 
         </div>
