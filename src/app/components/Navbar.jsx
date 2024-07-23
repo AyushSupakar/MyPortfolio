@@ -21,9 +21,9 @@ const navLinks=[
 function Navbar() {
     const [hbopen, sethbopen] = useState(false);
   return (
-    <nav className='fixed left-0 right-0 top-0 z-10 bg-[#121212] bg-opacity-80x backdrop-blurx px-4 py-4 '>
+    <nav className='fixed w-full left-0 right-0 top-0 z-10 bg-[#121212] bg-opacity-80x backdrop-blurx px-4 py-4 '>
         <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-2">
-            <Link href={"/"} className='text-3xl md:text-4xl text-white font-semibold'>Ayush's Portfolio</Link>
+            <Link href={"/"} className='text-3xl md:text-4xl text-white font-semibold'>Logo</Link>
 
             <div className="block mobile-menu md:hidden">
                 {
