@@ -11,7 +11,7 @@ function HeroSection() {
   return (
     <section className='px-6'>
       <div className="grid grid-cols-1 sm:grid-cols-12">
-        <div className="col-span-7 md:col-span-5 lg:col-span-7 place-self-center text-center sm:text-left">
+        <div className="col-span-7 md:col-span-5 lg:col-span-7 place-self-center text-center sm:text-left text-justify">
         <h1 className="font-bold text-white mb-4 text-3xl sm:text-3xl lg:text-5xl font-extrabold bg-[#121212]">
             <span className="text-transparent bg-clip-textx bg-gradient-to-r from-purple-400 to-pink-400">Hello, I am {"\n"}</span>
             <br />
