@@ -67,7 +67,7 @@ function AboutSection() {
             <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
               <h2 className='text-4xl font-bold text-white mb-4' >About Me</h2>
               <p className='text-base lg:text-lg text-justify'>
-                Hi! I am Ayush Anshuman Supakar, a engineering graduate from NIT Rourkela. I am really passionate about developing websites, building games, competitive coding and 3d designing as it lets me bring my creative imaginations to life. I am also a fast learner and quick adapter. Let's connect through my socials, provided at the bottom of the page.
+                Hi! I am Ayush Anshuman Supakar, a engineering graduate from NIT Rourkela. I am really passionate about developing websites, building games, competitive coding and 3d designing as it lets me bring my creative imaginations to life. I am also a fast learner and quick adapter. Let&apos;s connect through my socials, provided at the bottom of the page.
               </p>
               <div className="flex flex-row mt-8 ">
                   <TabButton selectTab={()=>handleTabChange("skills")} active={tab==="skills"}>{" "}Skills{" "}</TabButton>
