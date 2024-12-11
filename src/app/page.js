@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import AboutSection from "./components/AboutSection";
 import ProjectsSection from "./components/ProjectsSection";
 import ContactsSection from "./components/ContactsSection"
+
 export default function Home() {
   return (
     <main className="flex w-full flex-col bg-[#121212]  ">
@@ -15,5 +16,6 @@ export default function Home() {
           <ContactsSection id="contacts"/>
       </div>
     </main>
+      
   );
 }

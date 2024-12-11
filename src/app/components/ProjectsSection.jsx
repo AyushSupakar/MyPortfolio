@@ -12,8 +12,18 @@ function ProjectsSection() {
     
   }
     const projectsData=[
+      {
+        id:1,
+        title:"MyChatApp",
+        description:"A Real Time Chatting Application.",
+        image:"/images/projects/MyChatApp.png",
+        tag:["All","Web"],
+        gitUrl:"https://github.com/AyushSupakar/MyChatAppFront",
+        webUrl:"https://mychatapp-eight.vercel.app",
+    
+},
         {
-            id:1,
+            id:2,
             title:"EComMars",
             description:"This is the User end of my E-Commerce Website.",
             image:"/images/projects/EComMars.png",
@@ -23,7 +33,7 @@ function ProjectsSection() {
         
     },
     {
-        id:2,
+        id:3,
         title:"EComMars: AdminSide",
         description:"This is the Admin Side of my E-Commerce Website.",
         image:"/images/projects/EComMars_AdminSide.png",
@@ -33,7 +43,7 @@ function ProjectsSection() {
     
 },
 {
-    id:3,
+    id:4,
     title:"MewosicPlayer",
     description:"Its a Music Player.",
     image:"/images/projects/MewosicPlayer.png",
@@ -43,7 +53,7 @@ function ProjectsSection() {
 
 },
 {
-  id:4,
+  id:5,
   title:"SME, NIT Rourkela",
   description:"The official website of Society of Mining and Metallurgical Exploration, students chapter, NIT Rourkela.",
   image:"/images/projects/SME.png",
@@ -53,7 +63,7 @@ function ProjectsSection() {
 
 },
 {
-    id:5,
+    id:6,
     title:"Snakeyy",
     description:"It is the Classic Snake Game.",
     image:"/images/projects/Snakeyy.png",
@@ -63,7 +73,7 @@ function ProjectsSection() {
 
 },
 {
-    id:6,
+    id:7,
     title:"Rec4U",
     description:"A recommendation website for movies, songs and tv shows.",
     image:"/images/projects/Rec4U.png",
@@ -73,7 +83,7 @@ function ProjectsSection() {
 
 },
 {
-    id:7,
+    id:8,
     title:"Breakfast",
     description:"A 3D modelling of a breakfast plate.",
     image:"/images/projects/Breakfast.png",
@@ -83,7 +93,7 @@ function ProjectsSection() {
 
 },
 {
-    id:8,
+    id:9,
     title:"Department Building",
     description:"A 3D modelling of the chemical department of my University.",
     image:"/images/projects/Department_Building.png",
@@ -93,7 +103,7 @@ function ProjectsSection() {
 
 },
 {
-  id:9,
+  id:10,
   title:"Portfolio",
   description:"My Portfolio website.",
   image:"/images/projects/Portfolio.png",
