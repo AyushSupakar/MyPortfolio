@@ -8,43 +8,46 @@ const TAB_DATA = [
     id: "skills",
     content:(
 
-      <div className="flex gap-6">
+      <div className="flex flex-wrap gap-4 text-sm sm: justify-around sm: flex-grow">
         
-        <div className="">
+        <div className="w-32">
             
-            <ul className='list-disc pl-2'>
+            <ul className='list-disc pl-1'>
               <li>HTML5, CSS3</li>
               <li>JavaScript</li>
               <li>ReactJs, NextJs</li>
               <li>NextAuth, Google Oauth</li>
-              <li>JQuery, Tailwind, BootStrap, NextUi, Shadcn-ui</li>
+              <li>JQuery, Tailwind, BootStrap</li>
+              <li>NextUi, Shadcn-ui</li>
               <li>Canva, Wix Studio</li>
               <li>Git, Github</li>
-              <li>Hostinger</li>
+              
+              
+            </ul>
+
+        </div>
+        <div className="">
+            <ul className='list-disc pl-1'>
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>MongoDB</li>
+              <li>PostgresSQL</li>
+              <li>Redis Stream Adapter</li>
+              <li>Kafka</li>
+              <li>Axios</li>
+              <li>Socket.io</li>
+              <li>Prisma</li>
               <li>Vercel</li>
             </ul>
 
         </div>
         <div className="">
-            <ul className='list-disc pl-2'>
-              <li>Node.js</li>
-              <li>Express</li>
-              <li>MongoDB</li>
-              <li>PostgresSQL</li>
-              <li>Redis, Redis Stream Adapter</li>
-              <li>Kafka</li>
-              <li>Axios</li>
-              <li>Socket.io</li>
-              <li>Prisma</li>
-            </ul>
-
-        </div>
-        <div className="">
-            <ul className='list-disc pl-2'>
+            <ul className='list-disc pl-1'>
               <li>Java</li>
               <li>SpringBoot</li>
               <li>Java Swing</li>
-              <li>JSP, Servlets, Spring MVC</li>
+              <li>JSP, Servlets</li>
+              <li>Spring MVC</li>
               <li>Apache TomCat</li>
               <li>Hibernate</li>
               <li>DSA</li>
@@ -53,14 +56,16 @@ const TAB_DATA = [
             </ul>
         </div>
         <div className="">
-            <ul className='list-disc pl-2'>
-              <li>AWS : Elastic BeanStalk, S3</li>
-              <li>AWS : EC2, VPC</li>
-              <li>AWS : Route53, ACM &#40;SSL&#41; , CloudWatch</li>
+            <ul className='list-disc pl-1'>
+              <li>AWS : Elastic BeanStalk</li>
+              <li>AWS : EC2, VPC, S3</li>
+              <li>AWS : Route53, ACM &#40;SSL&#41;</li>
               <li>SupaBase, Confluent</li>
+              <li>Hostinger</li>
               <li>Zod, SASS</li>
               <li>TypeScript</li>
               <li>Docker</li>
+              
             </ul>
         </div>
 
@@ -120,7 +125,7 @@ function AboutSection() {
               <p className='text-base lg:text-lg text-justify'>
                 Hi! I am Ayush Anshuman Supakar, a engineering graduate from NIT Rourkela. I am really passionate about developing websites, building games, competitive coding and 3d designing as it lets me bring my creative imaginations to life. I am also a fast learner and quick adapter. Let&apos;s connect through my socials, provided at the bottom of the page.
               </p>
-              <div className="flex flex-row mt-8 gap-8">
+              <div className="flex flex-row mt-8 gap-4">
                   <TabButton selectTab={()=>handleTabChange("skills")} active={tab==="skills"}>{" "}Skills{" "}</TabButton>
 
                   <TabButton selectTab={()=>handleTabChange("education")} active={tab==="education"}>{" "}Education{" "}</TabButton>
