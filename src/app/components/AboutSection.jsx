@@ -65,6 +65,8 @@ const TAB_DATA = [
               <li>Zod, SASS</li>
               <li>TypeScript</li>
               <li>Docker</li>
+              <li>React Native</li>
+              <li>GraphQL</li>
               
             </ul>
         </div>
