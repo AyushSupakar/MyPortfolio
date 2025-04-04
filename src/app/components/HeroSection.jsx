@@ -8,6 +8,15 @@ import Link from 'next/link';
 
 
 function HeroSection() {
+  const handleResumeClick = () => {
+    if (typeof window.gtag !== 'undefined') {
+      window.gtag('event', 'resume_download', {
+        event_category: 'engagement',
+        event_label: 'Resume Button Clicked',
+        value: 1,
+      });
+    }
+  };
   return (
     <section className='px-6 sm:justify-center'>
       <div className="grid grid-cols-1 sm:grid-cols-12">
@@ -25,11 +34,13 @@ function HeroSection() {
         1000,
         'a Full Stack Developer',
         1000,
+        'a Mobile App Developer',
+        1000,
         'a Game Developer',
         1000,
         'a 3D  Artist',
         1000,
-        'a Java Developer',
+        'a Java Application Developer',
         1000,
       ]}
       wrapper="span"
@@ -38,14 +49,14 @@ function HeroSection() {
       repeat={Infinity}
     /></h1>
 
-        <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl mr-4 ">A Website to Build or a Bug to Fix, a Game to Make or a 3D item to Bake, I got you covered.</p>
+        <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl mr-4 ">A Website to Build or a Bug to Fix, an App to Make or a 3D item to Bake, I got you covered.</p>
 
         
         <div className="">
 
             <Link href="https://www.linkedin.com/in/ayush-anshuman-supakar-4b71681b8/"  className=" w-full px-6 py-3 sm:w-fit  rounded-full mr-4 bg-gradient-to-br from-blue-400 via-purple-500 to-pink-400 hover:bg-slate-200 text-white ">Hire Me</Link>
             
-            <button  className="  px-1 py-1 rounded-full mr-4 bg-gradient-to-br from-blue-400 via-purple-500 to-pink-400  hover:bg-slate-800 text-white mt-3" download>
+            <button onClick={handleResumeClick} className="  px-1 py-1 rounded-full mr-4 bg-gradient-to-br from-blue-400 via-purple-500 to-pink-400  hover:bg-slate-800 text-white mt-3" download>
                 <span className="block bg-[#121212] hover:bg-white hover:text-black hover:font-bold rounded-full px-5 py-2"><a href="/images/AyushSupakar_Resume_4April2025.pdf">Resume</a></span>
             </button>
 
