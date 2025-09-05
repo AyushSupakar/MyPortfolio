@@ -39,7 +39,7 @@ function ProjectsSection() {
         image:"/images/projects/DashConstructions.png",
         tag:["All","Web"],
         gitUrl:"https://github.com/AyushSupakar/DashConstructions",
-        webUrl:"https://dash-constructions.vercel.app/",
+        webUrl:"http://www.dashconstructions.in",
     
     },
       {
