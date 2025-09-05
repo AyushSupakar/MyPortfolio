@@ -2,7 +2,7 @@
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hello+!+😊;+I'm+Ayush+Supakar!;" />
 </h1>
 
-<h3 align="center"> 🎊 Welcome to my Portfolio Website 🎊 </h3> 
+<h3 align="center"> 🎊 Welcome to My Portfolio Website 🎊 </h3> 
 
 ### <div align="center"> [![](https://visitcount.itsvg.in/api?id=AyushSupakar&icon=0&color=0)](https://ayushsupakar.in)</div>
 
