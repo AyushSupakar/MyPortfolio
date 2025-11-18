@@ -18,8 +18,8 @@ function ProjectsSection() {
         description:"An App where you can book construction, home renovation and repair services.",
         image:"/images/projects/dc_app.png",
         tag:["All","Web"],
-        gitUrl:"https://github.com/AyushSupakar/dc_app",
-        webUrl:"https://expo.dev/preview/update?message=DC%20APP&updateRuntimeVersion=1.0.0&createdAt=2025-03-29T06%3A02%3A28.811Z&slug=exp&projectId=c0b3af4e-63a7-4400-9d1f-dd05b260140e&group=f17faba5-74ef-4a1b-9dce-c0ff9f2acfd0",
+        gitUrl:"https://github.com/AyushSupakar/DC-App",
+        webUrl:"https://play.google.com/store/apps/details?id=com.dc_app&pcampaignid=web_share",
     
     },
     {
@@ -28,8 +28,8 @@ function ProjectsSection() {
       description:"The Admin Side of DC App",
       image:"/images/projects/dc_admin.png",
       tag:["All","Web"],
-      gitUrl:"https://github.com/AyushSupakar/dc_admin",
-      webUrl:"https://expo.dev/preview/update?message=DC_Admin&updateRuntimeVersion=1.0.0&createdAt=2025-03-29T05%3A39%3A37.450Z&slug=exp&projectId=b45b253b-badb-4d92-b33e-4a6e6c538321&group=28b6bcca-c65d-4830-b19b-f532baeabcdb ",
+      gitUrl:"https://github.com/AyushSupakar/dc-admin-panel",
+      webUrl:"https://github.com/AyushSupakar/dc-admin-panel",
   
   },
       {
