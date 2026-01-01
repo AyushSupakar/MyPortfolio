@@ -97,7 +97,10 @@ const TAB_DATA = [
     content:(
       <ul className='list-disc pl-2'>
         <li>C and C++ Programming , MIIT , Bargarh</li>
-        <li>Web Development by Dr. Angela Yu, Udemy</li>
+        <li>The Complete Full-Stack Web Development Bootcamp by Angela Yu, Udemy</li>
+        <li>Software Architecture & Design of Modern Large Scale Systems by Michael Pogrebinsky
+, Udemy</li>
+        <li>FULL STACK JAVA DEV: JAVA + JSP + SPRING + BOOT + JS + REACT by StudyEasy Organization, Chaand Sheikh, Udemy</li>
       </ul>
     )
   }
