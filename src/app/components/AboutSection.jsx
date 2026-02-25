@@ -16,10 +16,11 @@ const TAB_DATA = [
               <li>HTML5, CSS3</li>
               <li>JavaScript</li>
               <li>ReactJs, NextJs</li>
-              <li>NextAuth, Google Oauth</li>
-              <li>JQuery, Tailwind, BootStrap</li>
-              <li>NextUi, Shadcn-ui</li>
-              <li>Canva, Wix Studio</li>
+              <li>Google Oauth</li>
+              <li>Tailwind, JQuery</li>
+              <li>Bootstrap, ShadcnUI</li>
+              <li>Expo, EAS</li>
+              <li>Canva, Hygraph</li>
               <li>Git, Github</li>
               
               
@@ -52,14 +53,14 @@ const TAB_DATA = [
               <li>Hibernate</li>
               <li>DSA</li>
               <li>Godaddy</li>
-              <li>Blender</li>
+              <li>Google Play Console</li>
             </ul>
         </div>
         <div className="">
             <ul className='list-disc pl-1'>
-              <li>AWS : Elastic BeanStalk</li>
-              <li>AWS : EC2, VPC, S3</li>
-              <li>AWS : Route53, ACM &#40;SSL&#41;</li>
+              <li>AWS</li>
+              <li>IaC: SAM, CloudFormation</li>
+              <li>CI/CD: Github Actions</li>
               <li>SupaBase, Confluent</li>
               <li>Hostinger</li>
               <li>Zod, SASS</li>

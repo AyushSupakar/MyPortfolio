@@ -13,11 +13,21 @@ function ProjectsSection() {
   }
     const projectsData=[
       {
+        id:0,
+        title:"RockRate Pro",
+        description:" A Geotechnical Analysis Suite that calculates RMR,Q-System & GSI and provides support system designs.",
+        image:"/images/projects/RorkRate_Pro.png",
+        tag:["All","Web"],
+        gitUrl:"https://github.com/AyushSupakar/rockrate-pro",
+        webUrl:"https://rockrate-pro.vercel.app/",
+    
+    },
+      {
         id:1,
         title:"DC APP",
         description:"An App where you can book construction, home renovation and repair services.",
         image:"/images/projects/dc_app.png",
-        tag:["All","Web"],
+        tag:["All","Mobile Apps"],
         gitUrl:"https://github.com/AyushSupakar/DC-App",
         webUrl:"https://play.google.com/store/apps/details?id=com.dc_app&pcampaignid=web_share",
     
@@ -27,7 +37,7 @@ function ProjectsSection() {
       title:"Dc APP - Admin Side",
       description:"The Admin Side of DC App",
       image:"/images/projects/dc_admin.png",
-      tag:["All","Web"],
+      tag:["All","Mobile Apps"],
       gitUrl:"https://github.com/AyushSupakar/dc-admin-panel",
       webUrl:"https://github.com/AyushSupakar/dc-admin-panel",
   
@@ -156,6 +166,8 @@ const filteredProjects = projectsData.filter((project)=>project.tag.includes(tag
         <ProjectTag onClick={handleTagChange} name="3D" isSelected={tag==="3D"} />
 
         <ProjectTag onClick={handleTagChange} name="Games" isSelected={tag==="Games"} />
+
+        <ProjectTag onClick={handleTagChange} name="Mobile Apps" isSelected={tag==="MobileApps"} />
         </div>
 
       <div className="mx-4 grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-8 md:gap-12">
