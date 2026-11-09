@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Ayush's Portfolio",
   description: "A developer's online resume",
+  verification: {
+    google: 'UT_aTKPP6ZT5OJKH890oFKanOdBx71dOOUd785hx3ts', // Replace with your exact extracted string
+  },
 };
 
 export default function RootLayout({ children }) {
