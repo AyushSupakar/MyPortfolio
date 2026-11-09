@@ -9,7 +9,7 @@ export const metadata = {
   title: "Ayush's Portfolio",
   description: "A developer's online resume",
   verification: {
-    google: 'UT_aTKPP6ZT5OJKH890oFKanOdBx71dOOUd785hx3ts', // Replace with your exact extracted string
+    google: '19JHPKHt4uksjuoIAZ98_dQ7YE35jpDUVAX1emIN2Og', // Replace with your exact extracted string
   },
 };
 
